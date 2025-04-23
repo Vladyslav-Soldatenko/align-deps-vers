@@ -1,0 +1,22 @@
+{
+  "name": "align-deps-vers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "align-deps-vers": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:test": "ts-node ./bin/index.ts",
+    "build": "tsc",
+    "postbuild": "chmod +x dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
