@@ -1,22 +1,38 @@
 {
   "name": "align-deps-vers",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "description": "CLI tool to align package.json dependency versions with actually installed versions, i.e. ^6.0.0 to ^6.2.2",
   "bin": {
     "align-deps-vers": "./dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vladyslav-Soldatenko/align-deps-vers"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:test": "ts-node ./bin/index.ts",
     "build": "tsc",
     "postbuild": "chmod +x dist/index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Vladyslav Soldatenko",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/node": "^22.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  }
+  },
+  "keywords": [
+    "npx",
+    "cli",
+    "dependencies",
+    "version",
+    "semver",
+    "node",
+    "package.json",
+    "align",
+    "bump"
+  ]
 }
