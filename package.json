@@ -1,6 +1,6 @@
 {
   "name": "align-deps-vers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "description": "CLI tool to align package.json dependency versions with actually installed versions, i.e. ^6.0.0 to ^6.2.2",
   "bin": {

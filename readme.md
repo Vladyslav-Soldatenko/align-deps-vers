@@ -31,7 +31,7 @@ This tool updates your `package.json` to:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Run instantly with `npx`
 
